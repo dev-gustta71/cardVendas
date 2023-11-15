@@ -1,0 +1,121 @@
+body {
+  background: #0c1014;
+  color: white;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main-title {
+  font-size: 65px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #05080a;
+    align-items: center;
+}
+
+.header_logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+
+.header_nav ul {
+    display: flex;
+  list-style-type: none;
+  gap: 16px;
+  font-size: 18px;
+}
+
+.header_nav a {
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+a.header_nav-plan {
+  background: #cbe300;
+  color: black;
+  pointer-events: none;
+}
+
+.header_nav a:hover {
+  text-decoration: underline;
+}
+
+a.header_nav-plan:hover {
+  text-decoration: none;
+}
+
+.pricing {
+  display: flex;
+  gap: 16px;
+  /* justify-content: space-around; */
+
+}
+
+.pricing-plan {
+    flex: 1;
+    background: #1f2c2c;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 5px 15px  -6px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-plan_title {
+    font-size: 23px;
+    border-bottom: 2px solid #cbe300;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.pricing-plan__price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pricing-plan__features {
+    color: #b5b5b5;
+    margin: 0 0 35px;
+    padding: 18px;
+    line-height: 1.6;
+    flex: 1;
+
+}
+
+
+.pricing-plan__features li::marker {
+    color: #cbe300;
+}
+
+.pricing-plan__cta {
+    background: #cbe300;
+    text-decoration: none;
+    color: #0c1014;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;    
+    padding: 16px 10px;
+    text-align: center;
+}
+
+.pricing-plan__cta:hover {
+    color: white;
+}
+footer {
+    font-size: 20px;
+    text-align: center;
+}
